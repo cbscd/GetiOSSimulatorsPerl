@@ -31,17 +31,19 @@ If the **deviceName** and **sdk** parameters match a configuration available, a 
 Executing this:
 ```bash
 $ cd /Users/Shared/Jenkins/Home
-$ perl -w listAvailableSims.pl -deviceType=iPad -sdk=8.4 -deviceName=iPad Air -xcodeBeta
+$ perl -w listAvailableSims.pl -deviceType=iPad -sdk=8.4 -deviceName=iPad Air
 ```
 Could output this:
 ```
-
-iOS 9.0 - iPad 2 - (38F1D37E-4B5B-40B5-9F17-FDAE7010490B)
-iOS 9.0 - iPad Retina - (64010687-2F15-42A5-89EE-DF267D4D25E3)
-iOS 9.0 - iPad Air - (0489B01C-6565-4EAF-B4F3-1F2385D1DC8B)
-iOS 9.0 - iPad Air 2 - (07168067-B41C-43B2-8CF7-708325BBB42C)
+iOS 8.3 - iPad 2 - (1F5DBDD1-026F-46FB-9AB2-1D15EC9E5A2A)
+iOS 8.3 - iPad Retina - (C9F9EC38-602E-4783-8B43-F732D743F3AD)
+iOS 8.3 - iPad Air - (5EC9C557-3360-451E-B0A9-B99E4800BE1C)
+iOS 8.3 - Resizable iPad - (BD6466DB-C95A-461B-B56F-1F9B0C0C4D24)
+iOS 8.4 - iPad 2 - (FA1CEF97-A77E-47DA-AA59-8997561F2C3B)
+iOS 8.4 - iPad Retina - (C2636E48-55A9-4F22-9B4A-CBC2902EF650)
+iOS 8.4 - iPad Air - (0BA0375B-760C-4DB8-AF11-4232A7C3E01B):selected
+iOS 8.4 - Resizable iPad - (44FF4304-758A-4C2D-9DF6-B8AB3E2A481D)
 ```
-
 
 Executing this:
 ```bash
@@ -49,7 +51,6 @@ $ perl -w listAvailableSims.pl -deviceType=iPad -sdk=8.4 -deviceName=iPad Air
 ```
 Could output this:
 ```
-
 iOS 9.0 - iPad 2 - (38F1D37E-4B5B-40B5-9F17-FDAE7010490B)
 iOS 9.0 - iPad Retina - (64010687-2F15-42A5-89EE-DF267D4D25E3)
 iOS 9.0 - iPad Air - (0489B01C-6565-4EAF-B4F3-1F2385D1DC8B)
