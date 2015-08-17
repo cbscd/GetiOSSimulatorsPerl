@@ -3,9 +3,10 @@
 This script was created to show a parametrized option with available iOS Simulator in a build job in Jenkis-CI.
 
 This is how it will look when you build your project:
-<div style="text-align:center">
+<div style="align:center">
 <img align="center" src="https://github.com/cbscd/GetiOSSimulatorsPerl/blob/master/Docs/JenkinsCI-BuildProjectSample.png?raw=true"/>
 </div>
+
 ----------
 ### Installation
 Put the **listAvailableSims.pl** into $JENKINS_HOME folder and configure a Scriptler script.
@@ -116,3 +117,7 @@ if( out.size() > 0 ) {
 ----------
 ### Job configuration
 In the job configuration, use the [Active Choices Plugin](https://wiki.jenkins-ci.org/display/JENKINS/Active+Choices+Plugin) to choose the Scriptler Script.
+
+<div style="align:center">
+<img align="center" src="https://github.com/cbscd/GetiOSSimulatorsPerl/blob/master/Docs/JenkinsCI-JobConfigSample.png?raw=true"/>
+</div>
