@@ -81,4 +81,4 @@ if( out.size() > 0 ) {
 ```
 ----------
 ### Job configuration
-In the job configuration, use the **Active Choices Parameter** to choose the Scriptler Script.
+In the job configuration, use the [Active Choices Plugin](https://wiki.jenkins-ci.org/display/JENKINS/Active+Choices+Plugin) to choose the Scriptler Script.
