@@ -4,7 +4,7 @@ This script was created to show a parametrized option with available iOS Simulat
 
 This is how it will look when you build your project:
 <div style="text-align:center">
-<img src="https://github.com/cbscd/GetiOSSimulatorsPerl/blob/master/Docs/JenkinsCI-BuildProjectSample.png?raw=true"/>
+<img align="center" src="https://github.com/cbscd/GetiOSSimulatorsPerl/blob/master/Docs/JenkinsCI-BuildProjectSample.png?raw=true"/>
 </div>
 ----------
 ### Installation
