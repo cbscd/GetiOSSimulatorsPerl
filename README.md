@@ -3,14 +3,16 @@
 This script was created to show a parametrized option with available iOS Simulator in a build job in Jenkis-CI.
 
 This is how it will look when you build your project:
-![alt text](https://github.com/cbscd/GetiOSSimulatorsPerl/blob/master/Docs/JenkinsCI-BuildProjectSample.png?raw=true "How it looks")
-
+<div style="text-align:center">
+<img src="https://github.com/cbscd/GetiOSSimulatorsPerl/blob/master/Docs/JenkinsCI-BuildProjectSample.png?raw=true"/>
+</div>
 ----------
 ### Installation
 Put the **listAvailableSims.pl** into $JENKINS_HOME folder and configure a Scriptler script.
 ```
 /Users/Shared/Jenkins/Home/listAvailableSims.pl
 ```
+
 ----------
 ### Options
 This script receives some parameters in order to parse the output from the ```xcrun simctl list``` command.
