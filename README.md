@@ -1,6 +1,9 @@
 # GetiOSSimulatorsPerl
 
-This script was created to show a parametrized option in a build job in Jenkis-CI.
+This script was created to show a parametrized option with available iOS Simulator in a build job in Jenkis-CI.
+
+This is how it will look when you build your project:
+![alt text](https://github.com/cbscd/GetiOSSimulatorsPerl/blob/master/Docs/JenkinsCI-BuildProjectSample.png?raw=true "How it looks")
 
 ----------
 ### Installation
@@ -58,6 +61,35 @@ iOS 9.0 - iPad Air 2 - (07168067-B41C-43B2-8CF7-708325BBB42C)
 ```
 > **Note:**
  - There is no match on the **deviceName** and **sdk** options and ```:selected``` is not present on any of the lines.
+
+If you want to get the whole list of iPhone and iPad simulators, just ommit the ```deviceType``` option:
+```bash
+$ jenkins$ perl -w listAvailableSims.pl -sdk=8.3 -deviceName=iPad Retina
+```
+Could output this:
+```
+
+iOS 8.3 - iPhone 4s - (F472FFE7-7897-4404-BFA5-17FB535C42B6)
+iOS 8.3 - iPhone 5 - (3CB9BA5F-B4D7-4D66-AB48-AB53F837742A)
+iOS 8.3 - iPhone 5s - (725993D1-0EE2-4CCE-9DA3-CD38FC2182B4)
+iOS 8.3 - iPhone 6 Plus - (E79F891B-48E3-428C-8770-1178B5D24A9C)
+iOS 8.3 - iPhone 6 - (13DB6E18-6D51-43A6-9A21-AC30B71832D5)
+iOS 8.3 - iPad 2 - (1F5DBDD1-026F-46FB-9AB2-1D15EC9E5A2A)
+iOS 8.3 - iPad Retina - (C9F9EC38-602E-4783-8B43-F732D743F3AD):selected
+iOS 8.3 - iPad Air - (5EC9C557-3360-451E-B0A9-B99E4800BE1C)
+iOS 8.3 - Resizable iPhone - (061A178A-94AB-45CB-9D39-1AD6D151064F)
+iOS 8.3 - Resizable iPad - (BD6466DB-C95A-461B-B56F-1F9B0C0C4D24)
+iOS 8.4 - iPhone 4s - (D74AC053-D7C5-41A4-AC3C-7D5C97895A9E)
+iOS 8.4 - iPhone 5 - (3797B959-63AA-4D6F-8A3A-F0D4B5BD541E)
+iOS 8.4 - iPhone 5s - (069D193B-B340-4745-9A5E-7D510853FBD1)
+iOS 8.4 - iPhone 6 Plus - (6650D1CB-2749-4032-BE56-27F0A28CD50F)
+iOS 8.4 - iPhone 6 - (7C63D73A-FF42-4C8E-BE6A-B92901523402)
+iOS 8.4 - iPad 2 - (FA1CEF97-A77E-47DA-AA59-8997561F2C3B)
+iOS 8.4 - iPad Retina - (C2636E48-55A9-4F22-9B4A-CBC2902EF650)
+iOS 8.4 - iPad Air - (0BA0375B-760C-4DB8-AF11-4232A7C3E01B)
+iOS 8.4 - Resizable iPhone - (2B4E84E3-C310-4A95-A56D-CACA9EA0405D)
+iOS 8.4 - Resizable iPad - (44FF4304-758A-4C2D-9DF6-B8AB3E2A481D)
+```
 
 ----------
 ### Groovy script
