@@ -120,4 +120,5 @@ In the job configuration, use the [Active Choices Plugin](https://wiki.jenkins-c
 
 <div style="align:center">
 <img align="center" src="https://github.com/cbscd/GetiOSSimulatorsPerl/blob/master/Docs/JenkinsCI-JobConfigSample.png?raw=true"/>
+<img align="center" src="https://github.com/cbscd/GetiOSSimulatorsPerl/blob/master/Docs/JenkinsCI-JobConfigSample2.png?raw=true"/>
 </div>
